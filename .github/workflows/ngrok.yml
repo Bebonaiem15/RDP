@@ -1,0 +1,7 @@
+authtoken: $NGROK_AUTH_TOKEN
+tunnels:
+  my-tunnel:
+    proto: tcp
+    addr: 3389
+    # Optional: Set a region (like 'us', 'eu', etc.)
+    region: us
